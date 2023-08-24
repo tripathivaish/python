@@ -1,0 +1,5 @@
+d=int(input("enter the three digits"))
+n1=int("%s",d)
+n2=int("%s%s"%(d,d))
+n3=int("%s%s%s"%(d,d,d))
+print(n1+n2+n3)
